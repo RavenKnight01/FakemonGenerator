@@ -6,6 +6,6 @@ This repo is for pokemon generator that will assist in helping you make fakemons
 This project was started because I had a thought that people could make random animals easy! That's how I made it! Code, and dreams
 
 ## How to Use
-To use this, go to: https://gracewqma.github.io/TuimizRandonAnimalGenerator/, then click the buttons to begin!
+To use the generator, go to: [insert link here], then click the buttons to begin creating!
 
 
