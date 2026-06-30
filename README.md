@@ -8,4 +8,6 @@ This project was started because I thought it would be nice to have a generator 
 ## How to Use
 To use the generator, go to: [insert link here], then click the buttons to begin creating!
 
+## Contributors
+[![Contributors](https://contrib.rocks/image?repo=RavenKnight01/Fakemon)](https://github.com/RavenKnight01/Fakemon/graphs/contributors)
 
