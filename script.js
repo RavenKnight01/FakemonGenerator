@@ -1017,8 +1017,8 @@ function checkForArachnids(animal) {
 */
 const partMap = [base, ears, tail, head_accessory, neck_accessory, leg_accessories, small_decoration, color];
 
-function generateAnimalWithAnimation(index) {
-  const button = document.querySelector(`button[onclick='generateAnimalWithAnimation(${index})']`);
+function generatePokemonWithAnimation(index) {
+  const button = document.querySelector(`button[onclick='generatePokemonWithAnimation(${index})']`);
   const element = document.getElementById(`num${index}`);
   const arr = partMap[index];
   button.disabled = true;
