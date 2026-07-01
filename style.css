@@ -22,7 +22,7 @@
       color: #ffcb05; /*yellow*/
       font-weight: bold;
       margin-bottom: 5px;
-      -webkit-text-stroke: 3px #2a75bb /*Pokemon Blue */
+      -webkit-text-stroke: 1.5px #2a75bb /*Pokemon Blue */
     }
     .subtitle {
       font-size: 0.9rem;
