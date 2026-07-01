@@ -3,7 +3,7 @@
  This repo is for Pokemon generator that will assist in helping you make Fakemons!
 
 ## About
-This project was started because I thought it would be nice to have a generator to inspire people making their own Fakemon or wanting to make a Fakemon and not knowing where to start. In fact the Fakemon Random Generator is inspired by Tuliz Random Animal Generator!
+This project was started because I thought it would be nice to have a generator to inspire people making their own Fakemon or wanting to make a Fakemon and not knowing where to start. In fact the Fakemon Random Generator is inspired by [Tuliz Random Animal Generator](https://github.com/gracewqma/TuimizRandonAnimalGenerator)!
 
 ## How to Use
 To use the generator, go to: https://ravenknight01.github.io/FakemonGenerator/, then click the buttons to begin creating!
