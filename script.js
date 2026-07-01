@@ -1042,11 +1042,11 @@ function generateExtraWithAnimation(index) {
   button.disabled = true;
   let count = 0;
   const interval = setInterval(() => {
-    element.textContent = extras[Math.floor(Math.random() * extras.length)];
+    element.textContent = extra[Math.floor(Math.random() * extra.length)];
     count++;
     if (count > 20) {
       clearInterval(interval);
-      element.textContent = extras[Math.floor(Math.random() * extras.length)];
+      element.textContent = extra[Math.floor(Math.random() * extra.length)];
       button.disabled = false;
     }
   }, 20);
