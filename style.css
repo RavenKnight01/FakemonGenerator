@@ -6,7 +6,7 @@
       justify-content: center;
       align-items: flex-start;
       min-height: 100vh;
-      background-color: #1e1321;
+      background-color: #dae1eb /*#1e1321*/;
     }
     .container {
       width: 90%;
@@ -19,13 +19,14 @@
     }
     .title {
       font-size: 1.5rem;
-      color: #fff; 
+      color: #ffcb05 /*#fff*/; 
+      border: 2px solid #2a75bb /* attempting to give it it that pokemon border*/
       font-weight: bold;
       margin-bottom: 5px;
     }
     .subtitle {
       font-size: 0.9rem;
-      color: #bca2eb;
+      color: #ffcb05 /* #bca2eb */;
       margin-bottom: 15px;
     }
     .button-container {
@@ -34,8 +35,8 @@
       align-items: center;
       gap: 10px;
       padding: 5px 10px;
-      background-color: #f4f2ff;
-      border: 1px solid #3b2a80;
+      background-color: #ffcb05/* #f4f2ff*/;
+      border: 1px solid #c7a008 /* #3b2a80 */; 
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
@@ -46,19 +47,19 @@
       cursor: pointer;
       border: none;
       border-radius: 5px;
-      background-color: #b997e8;
-      color: #fff;
+      background-color: #ffcb05;
+      color: #c7a008;
       font-family: 'Geist Pixel','Playpen Sans Hebrew', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     }
     button:hover {
-      background-color: #a67de8;
+      background-color: #1d2c5e /* #a67de8 */;
     }
     .number {
       flex-grow: 1;
       text-align: left;
       font-size: 14px;
       font-weight: bold;
-      color: #16131c;
+      color:  #16131c;
       white-space: nowrap;
     }
     .number:empty::after {
