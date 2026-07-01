@@ -1,5 +1,5 @@
 const base = [
-   "bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle",
+  "bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle",
   "blastoise", "caterpie", "metapod", "butterfree", "weedle", "kakuna", "beedrill", "pidgey", "pidgeotto",
   "pidgeot", "rattata", "alolan rattata", "raticate", "alolan raticate", "spearow", "fearow", "ekans", "arbok",
   "pikachu", "raichu", "alolan raichu", "sandshrew", "alolan sandshrew", "sandslash", "alolan sandslash",
