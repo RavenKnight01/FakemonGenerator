@@ -997,24 +997,6 @@ const extra = [
    "spikes", "plants", "embedded gems", "colourful spots", "colourful stripes", "no legs", "no eyes", "extra legs", "none"
 ];
 
-/* Trigger words for warning
-const arachnidTriggers = [
-  "name of trigger", 
-];
-
-function showArachnophobiaWarning(animal) {
-  alert("WARNING: Arachnophobia generated");
-  console.warn("Arachnophobia Warning Triggered for:", animal);
-}
-
-function closeWarning() {
-  document.getElementById("warningOverlay").style.display = "none";
-}
-
-function checkForArachnids(animal) {
-  return arachnidTriggers.some(trigger => animal.toLowerCase().includes(trigger));
-}
-*/
 const partMap = [base, ears, tail, head_accessory, neck_accessory, leg_accessories, small_decoration, color];
 
 function generatePokemonWithAnimation(index) {
@@ -1031,7 +1013,6 @@ function generatePokemonWithAnimation(index) {
       const final = arr[Math.floor(Math.random() * arr.length)];
       element.textContent = final;
       button.disabled = false;
-  //if (checkForArachnids(final)) showArachnophobiaWarning(final);
     }
   }, 20);
 }
