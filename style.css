@@ -19,10 +19,10 @@
     }
     .title {
       font-size: 1.5rem;
-      color: #ffcb05 /*#fff*/; /*yellow*/
-      border: 5px solid #2a75bb /* attempting to give it it that blue pokemon border, was 2px*/
+      color: #ffcb05; /*yellow*/
       font-weight: bold;
       margin-bottom: 5px;
+      -webkit-text-stroke: 3px #2a75bb /*Pokemon Blue */
     }
     .subtitle {
       font-size: 0.9rem;
