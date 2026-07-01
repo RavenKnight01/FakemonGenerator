@@ -6,7 +6,7 @@
       justify-content: center;
       align-items: flex-start;
       min-height: 100vh;
-      background-color: #1d2c5e /*#1e1321*/;
+      background-color: #1d2c5e; /* Main background color*/
     }
     .container {
       width: 90%;
@@ -26,7 +26,7 @@
     }
     .subtitle {
       font-size: 0.9rem;
-      color: #ffcb05 /* #bca2eb */;
+      color: #ffcb05; /* Should be "by Raven" and the pokedex note*/
       margin-bottom: 15px;
     }
     .button-container {
@@ -35,8 +35,8 @@
       align-items: center;
       gap: 10px;
       padding: 5px 10px;
-      background-color: #f0ce4d/* #f4f2ff*/;
-      border: 1px solid #3466af /* #3b2a80 */; 
+      background-color: #f0ce4d; /* Does not affect anything visually*/
+      border: 1px solid #3466af; /* Does not affect anything visually*/
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
@@ -47,19 +47,19 @@
       cursor: pointer;
       border: none;
       border-radius: 5px;
-      background-color: #ffcb05;
-      color: #c7a008;
+      background-color: #ffcb05; /* ? */
+      color: #fff; /* Word in button*/
       font-family: 'Geist Pixel','Playpen Sans Hebrew', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     }
     button:hover {
-      background-color: #1d2c5e /* #a67de8 */;
+      background-color: #ffe78c; /*When you hover over the button*/
     }
     .number {
       flex-grow: 1;
       text-align: left;
       font-size: 14px;
       font-weight: bold;
-      color:  #16131c;
+      color:  #16131c; /* Generator words*/
       white-space: nowrap;
     }
     .number:empty::after {
