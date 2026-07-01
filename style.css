@@ -1,5 +1,5 @@
     body {
-      font-family: 'Carter One', 'Comic Sans MS','Segoe Print', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'Carter One', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       margin: 0;
       padding: 0;
       display: flex;
