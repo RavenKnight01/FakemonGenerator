@@ -10,19 +10,19 @@ const tail = [
   "mouse", 
 ];
 
-const head accessory = [
+const head_accessory = [
   "mouse", 
 ];
 
-const neck accessory = [
+const neck_accessory = [
   "seal", 
 ];
 
-const leg accessories = [
+const leg_accessories = [
   "seal", 
 ];
 
-const small decoration = [
+const small_decoration = [
   "seal", 
 ];
 
@@ -36,8 +36,7 @@ const extras = [
 
 /* Trigger words for warning
 const arachnidTriggers = [
-  "spider", "tarantula", "whip spider", "arachnid",
-  "scorpion", "centipede", "millipede", "tick", "mite"
+  "name of trigger", 
 ];
 
 function showArachnophobiaWarning(animal) {
@@ -53,7 +52,7 @@ function checkForArachnids(animal) {
   return arachnidTriggers.some(trigger => animal.toLowerCase().includes(trigger));
 }
 */
-const partMap = [base, head, ears, eyes, nose, legs, feet, tail, coat, colour];
+const partMap = [base, ears, tail, head_accessory, neck_accessory, leg_accessories, small_decoration, color];
 
 function generateAnimalWithAnimation(index) {
   const button = document.querySelector(`button[onclick='generateAnimalWithAnimation(${index})']`);
@@ -69,7 +68,7 @@ function generateAnimalWithAnimation(index) {
       const final = arr[Math.floor(Math.random() * arr.length)];
       element.textContent = final;
       button.disabled = false;
-      if (checkForArachnids(final)) showArachnophobiaWarning(final);
+  //if (checkForArachnids(final)) showArachnophobiaWarning(final);
     }
   }, 20);
 }
