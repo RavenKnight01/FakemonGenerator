@@ -45,8 +45,8 @@
       cursor: pointer;
       border: none;
       border-radius: 5px;
-      background-color: ##b997e8;
-      color: #000;
+      background-color: #b997e8;
+      color: #fff;
       font-family: 'Geist Pixel','Playpen Sans Hebrew', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     }
     button:hover {
@@ -57,7 +57,7 @@
       text-align: left;
       font-size: 14px;
       font-weight: bold;
-      color: #555;
+      color: #444452;
       white-space: nowrap;
     }
     .number:empty::after {
