@@ -991,7 +991,10 @@ const color = [
 ];
 
 const extras = [
-  "unicorn horn", "", "none"
+  "mushroom", "extra eyes", "huge ears", "long tail","bioluminescent", "iridescence", "glowing eyes", "huge eyes", "gills", 
+  "fluffy cheeks", "stripes", "make big", "make small", "fluffy ears", "colourful spots", "colourful stripes", "mane",
+  "long claws", "tusk", "heterochromia", "shiny", "multiple tails", "recolor", "reindeer antlers", "sheep horns", "insect antennae",
+   "spikes", "plants", "embedded gems", "colourful spots", "colourful stripes", "no legs", "no eyes", "extra legs", "none"
 ];
 
 /* Trigger words for warning
