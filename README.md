@@ -1,5 +1,5 @@
 # Fakemon Random Generator
-![License](https://img.shields.io/badge/license-MIT-purple)![Made With](https://img.shields.io/badge/Made%20With-%E2%9C%A8%20HTML%20%E2%9C%A8-blueviolet)
+![License](https://img.shields.io/badge/license-MIT-purple)![Made With](https://img.shields.io/badge/Made%20With-%E2%9C%A8%20HTML%20%E2%9C%A8-blueviolet)  
 This repo is for Pokemon generator that will assist in helping you make Fakemons!
 
 ## About
