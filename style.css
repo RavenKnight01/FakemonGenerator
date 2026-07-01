@@ -35,8 +35,8 @@
       align-items: center;
       gap: 10px;
       padding: 5px 10px;
-      background-color: #f0ce4d; /* Does not affect anything visually*/
-      border: 1px solid #3466af; /* Does not affect anything visually*/
+      background-color: #c7a008; /* Space where words are generated*/
+      border: 1px solid #21386e; /* Does not affect anything visually*/
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
@@ -47,8 +47,8 @@
       cursor: pointer;
       border: none;
       border-radius: 5px;
-      background-color: #ffcb05; /* ? */
-      color: #fff; /* Word in button*/
+      background-color: #ffcb05; /* main button */
+      color: #16131c; /* Word in button*/
       font-family: 'Geist Pixel','Playpen Sans Hebrew', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     }
     button:hover {
