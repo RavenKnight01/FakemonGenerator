@@ -6,7 +6,7 @@
       justify-content: center;
       align-items: flex-start;
       min-height: 100vh;
-      background-color: #dae1eb /*#1e1321*/;
+      background-color: #1d2c5e /*#1e1321*/;
     }
     .container {
       width: 90%;
@@ -19,8 +19,8 @@
     }
     .title {
       font-size: 1.5rem;
-      color: #ffcb05 /*#fff*/; 
-      border: 2px solid #2a75bb /* attempting to give it it that pokemon border*/
+      color: #ffcb05 /*#fff*/; /*yellow*/
+      border: 5px solid #2a75bb /* attempting to give it it that blue pokemon border, was 2px*/
       font-weight: bold;
       margin-bottom: 5px;
     }
@@ -35,8 +35,8 @@
       align-items: center;
       gap: 10px;
       padding: 5px 10px;
-      background-color: #ffcb05/* #f4f2ff*/;
-      border: 1px solid #c7a008 /* #3b2a80 */; 
+      background-color: #f0ce4d/* #f4f2ff*/;
+      border: 1px solid #3466af /* #3b2a80 */; 
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
